@@ -11,3 +11,4 @@ php date.php "in/ionos_2020/RG_100080295635.pdf0.jpg.txt"
 ./test.sh
 
 ./test/byParams.sh
+./test/appendToLine.sh
