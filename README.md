@@ -7,4 +7,7 @@ php extract.php "in/ionos_2020/RG_100080295635.pdf0.jpg.txt"
 php date.php "in/ionos_2020/RG_100080295635.pdf0.jpg.txt"
 
 
+## TEST
+./test.sh
+
 ./test/byParams.sh
