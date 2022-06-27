@@ -12,7 +12,7 @@ for item in "${params[@]}"; do
   [ ! -z "$first" ] && echo -n $separator
   item="${item%\"}"
   item="${item#\"}"
-  item=${item/$SEARCH/$REPLACE}
+  #item=${item/$SEARCH/$REPLACE}
   echo -n "$item"
   first=1
 done
