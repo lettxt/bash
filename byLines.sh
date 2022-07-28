@@ -5,5 +5,6 @@ else
   readarray -t params
 fi
 for i in "${params[@]}"; do
-  echo "$i"
+  echo -n "$i"
+  echo ""
 done
